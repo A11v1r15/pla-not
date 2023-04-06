@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "pla-not",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Pla not",
+  "description": "An atomic mod that includes the Harvest enchant",
   "authors": [
-    "Me!"
+    "A11v1r15"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pla-not",
+    "sources": "https://github.com/A11v1r15/pla-not"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/pla-not/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.a11v1r15.planot.PlaNot"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
